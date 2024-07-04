@@ -1,5 +1,8 @@
 require("numbahwan.remap")
 require("numbahwan.set")
+require("numbahwan.autocmd")
+-- Comment if not in WSL
+require("numbahwan.wsl")
 
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
