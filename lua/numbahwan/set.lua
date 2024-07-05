@@ -33,11 +33,11 @@ vim.opt.hlsearch = true
 -- Decrease mapped sequence wait time
 -- Displays which-key popup sooner
 vim.opt.timeoutlen = 300
-vim.opt.clipboard = 'unnamedplus'
+vim.opt.clipboard = "unnamedplus"
 -- vim.opt.colorcolumn = "80"
 
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 
 vim.opt.list = true
-vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
