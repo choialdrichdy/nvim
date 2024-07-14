@@ -1,5 +1,5 @@
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>pv", "<cmd>Oil<CR>")
+vim.keymap.set("n", "<leader>-", "<cmd>Oil<CR>", { desc = "Open parent directory" })
 
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 
