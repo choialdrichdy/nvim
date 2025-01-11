@@ -1,12 +1,12 @@
 return {
-	"catppuccin/nvim",
-	name = "catppuccin",
+	"rebelot/kanagawa.nvim",
+	name = "kanagawa",
 	lazy = false,
 	priority = 1000,
 	init = function()
-		require("catppuccin").setup({
-			flavour = "macchiato",
+		require("kanagawa").setup({
+			transparent = true,
 		})
-		vim.cmd.colorscheme("catppuccin")
+		vim.cmd.colorscheme("kanagawa")
 	end,
 }
