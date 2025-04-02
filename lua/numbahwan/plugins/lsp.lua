@@ -160,6 +160,9 @@ return {
 			tailwindcss = {},
 			html = {},
 			htmx = {},
+			dockerls = {},
+			docker_compose_language_service = {},
+			yamlls = {},
 			-- rust_analyzer = {},
 			-- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
 			--
@@ -167,7 +170,7 @@ return {
 			--    https://github.com/pmizio/typescript-tools.nvim
 			--
 			-- But for many setups, the LSP (`tsserver`) will work just fine
-			tsserver = {},
+			ts_ls = {},
 			--
 
 			lua_ls = {
